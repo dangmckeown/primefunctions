@@ -1,6 +1,6 @@
 <?php
 
-include_once['primefunctions.php'];
+include_once('primefunctions.php');
 
 $input = $_POST['input'];
 
