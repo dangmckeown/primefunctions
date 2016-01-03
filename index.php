@@ -9,6 +9,18 @@ print <<<_html_
 </form>
 
 
+<h1>Test if chosen number is prime</h1>
+<form method="post" action="isprime.php">
+<input type="text" name="input">
+<input type="submit">
+</form>
+
+
+<h1>Get prime factors for chosen number</h1>
+<form method="post" action="primefactors.php">
+<input type="text" name="input">
+<input type="submit">
+</form>
 
 
 _html_;
