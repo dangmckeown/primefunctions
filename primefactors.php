@@ -11,10 +11,16 @@ echo "Less of the huge numbers, you! Let's keep it below 100,000 for everyone's 
 }
 else
 {
+$i = 0;
 $factors = prime_factors($input);
 
 foreach ($factors as $factor){
-echo "$factor <br />";
+echo "$factor &nbsp;&nbsp;";
+$i++;
+if($i == 5){
+$i = 0;
+echo "<br />";
+}
 }
 }
 

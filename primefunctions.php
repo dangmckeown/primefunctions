@@ -55,6 +55,7 @@ return array("$x is a prime number itself, and therefore can't be created by mul
 } //end if
 else
 {
+echo "<p>If you multiply all the following numers together, you get $x:</p>";
 $factors = array();
 $count = count($primes) - 1;
 $c = 0;
