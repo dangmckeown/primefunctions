@@ -51,7 +51,7 @@ return $prime;
 function prime_factors($x){
 $primes = primes_to($x);
 if (in_array($x, $primes)){
-return array("Prime numbers don't have factors! Bonehead.");
+return array("$x is a prime number itself, and therefore can't be created by multiplying other prime numbers.");
 } //end if
 else
 {
