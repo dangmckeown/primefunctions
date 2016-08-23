@@ -2,7 +2,7 @@
     "name": "dangmckeown/dang-prime-functions",
     "description": "Range of functions to test if a number is prime, return primes for a range, etc",
     "require-dev": {
-        "php": "^7.0",
+        "php": "^5.6.24",
         "heroku/heroku-buildpack-php": "^109.0"
     },
     "authors": [
