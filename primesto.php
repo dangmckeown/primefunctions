@@ -16,7 +16,7 @@ $primes = primes_to($input);
 
 $i = 0;
 foreach ($primes as $prime){
-echo "$prime ";
+echo "$prime &nbsp;&nbsp;";
 $i++;
 if ($i == 10){
 $i = 0;
