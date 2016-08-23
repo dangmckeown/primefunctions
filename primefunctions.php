@@ -5,6 +5,7 @@
 //is_prime
 //prime_factors
 function primes_to($x){
+echo "<center>";
 $primes = array(2);
 $i = 3;
 while($i <=$x){
@@ -25,6 +26,7 @@ return $primes;
 //end primes function
 //===================
 function is_prime($y){
+echo "<center>";
 if($y==2)
             {
                 $prime=true;
@@ -49,6 +51,7 @@ return $prime;
 }// end function is_prime
 //=======================
 function prime_factors($x){
+echo "<center>";
 $primes = primes_to($x);
 if (in_array($x, $primes)){
 return array("$x is a prime number itself, and therefore can't be created by multiplying other prime numbers.");
@@ -73,4 +76,10 @@ $c++;
 return $factors;
 } //end prime_factors
 //=====================
+
+
+// Add styling for pages
+
+
+
 ?>
