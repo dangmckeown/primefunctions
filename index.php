@@ -24,8 +24,12 @@
 </head>
 <body>
 <center><h1>Prime functions</h1>
-
-<p>Preambulatory paragraph here</p>
+<b>A quick primer</b>
+<ul>
+<li>Prime numbers are only divisible by themselves and one</li>
+<li>All non-prime numbers have <b>prime factors</b> eg 6 can be produced from 2 and 3 (2 x 3 = 6) and 12 can be produced from 2, 2 and 3 (2 x 2 x 3 = 12)</li>
+<li><blockquote>"Freedom is the right of all sentient beings"</blockquote> - Optimus Prime (diagram below)
+</ul>
 </center>
 <div id="main">
 <h2>Primes up to chosen number</h2>
