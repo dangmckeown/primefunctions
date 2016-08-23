@@ -18,7 +18,7 @@ $i = 0;
 foreach ($primes as $prime){
 echo "$prime ";
 $i++;
-if ($i = 10){
+if ($i == 10){
 $i = 0;
 echo "<br />";
 }
