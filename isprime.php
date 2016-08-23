@@ -8,11 +8,13 @@ $isprime = is_prime($input);
 
 echo "<h1>Is $input prime?</h1>";
 
+echo "<p>";
+
 if (! $isprime){
 echo "$input is not a prime number";
 }else{
 echo "$input is a prime number";
 }
 
-echo "<a href='index.php'>Return to main page</a>";
+echo "</p><p><a href='index.php'>Return to main page</a></p>";
 ?>

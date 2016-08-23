@@ -1,9 +1,10 @@
 <?php
 
 include_once('primefunctions.php');
+
 $input = $_POST['input'];
 
-echo "<h1>All primes up to $input</h1>";
+echo "<center><h1>All primes up to $input</h1>";
 
 
 if ($input > 20000){
