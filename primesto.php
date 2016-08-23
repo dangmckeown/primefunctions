@@ -11,7 +11,7 @@ echo "<p>That's a really big number! Are you really sure you need all those prim
 }
 else
 {
-
+echo "<p>";
 $primes = primes_to($input);
 
 $i = 0;
@@ -23,6 +23,7 @@ $i = 0;
 echo "<br />";
 }
 }
+echo "</p>";
 }
 
 echo "<p><a href='index.php'>Return to main page</a></p>";
