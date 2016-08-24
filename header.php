@@ -19,6 +19,7 @@
 @media screen and (max-width:511px){
 #main{width:100%;}
 #optimus_prime_pic{width:100%;}
+input{ height: 25px; width: 100%; display: block;}
 }
 </style>
 </head>
