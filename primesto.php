@@ -4,8 +4,11 @@ include_once('primefunctions.php');
 
 $input = $_POST['input'];
 
-echo "<center><h1>All primes up to $input</h1>";
+$title = "All primes up to $input";
 
+include_once('header.php');
+
+echo "<center><h1>$title</h1>";
 
 if ($input > 20000){
 echo "<p>That's a really big number! Are you really sure you need all those primes? What are you planning to do with them?</p>";

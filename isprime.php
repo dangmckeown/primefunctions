@@ -4,9 +4,14 @@ include_once('primefunctions.php');
 
 $input = $_POST['input'];
 
+$title = "Is $input prime?";
+
+include_once('header.php');
+
+
 $isprime = is_prime($input);
 
-echo "<h1>Is $input prime?</h1>";
+echo "<h1>$title</h1>";
 
 echo "<p>";
 

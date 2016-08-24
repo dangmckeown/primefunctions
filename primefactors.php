@@ -4,7 +4,12 @@ include_once('primefunctions.php');
 
 $input = $_POST['input'];
 
-echo "<center><h1>Prime factors of $input</h1>";
+$title = "Prime factors of $input";
+
+include_once('header.php');
+
+
+echo "<center><h1>$title</h1>";
 
 if ($input > 100000){
 echo "Less of the huge numbers, you! Let's keep it below 100,000 for everyone's sake";
